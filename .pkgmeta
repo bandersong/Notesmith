@@ -1,0 +1,8 @@
+package-as: Notesmith
+
+ignore:
+  - .github
+  - README.md
+  - .pkgmeta
+
+manual-changelog: CHANGELOG.md
