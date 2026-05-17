@@ -28,8 +28,8 @@ Jot down anything you want to remember — bag cleanup, a guildie's name, "buy m
 
 ## Compatibility
 
-- **Retail** (The War Within) — Interface 120005
-- **Burning Crusade Classic Anniversary** — Interface 20505
+- **Burning Crusade Classic Anniversary** — Interface 20505 (tested)
+- **Retail** (The War Within) — Interface 120005 (included but untested)
 
 ## Install
 
