@@ -18,11 +18,20 @@ local DEFAULTS = {
 
 local PREFIX = "|cFF7FFFD4Notesmith:|r "
 
+local function deepCopy(tbl)
+    if CopyTable then return CopyTable(tbl) end
+    local r = {}
+    for k, v in pairs(tbl) do
+        r[k] = type(v) == "table" and deepCopy(v) or v
+    end
+    return r
+end
+
 local function applyDefaults(target, defaults)
     for key, value in pairs(defaults) do
         if target[key] == nil then
             if type(value) == "table" then
-                target[key] = CopyTable(value)
+                target[key] = deepCopy(value)
             else
                 target[key] = value
             end

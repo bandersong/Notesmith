@@ -1,5 +1,10 @@
 # Notesmith Changelog
 
+## v1.1.0
+- Full multi-flavor support: Retail (Mainline), Classic Era (Vanilla), TBC Anniversary, Wrath / Titan Reforged, and Mists of Pandaria Classic.
+- Per-flavor TOC files using current live interface versions pulled from Blizzard's CDN (120005 / 50503 / 38001 / 20505 / 11508).
+- Added defensive `CopyTable` fallback for older Classic environments.
+
 ## v1.0.1
 - Slash command consolidated: only `/notesmith` (dropped `/notes` and `/note` aliases to avoid conflicts with other addons).
 

@@ -1,4 +1,4 @@
-## Interface: 120005
+## Interface: 38001
 ## Title: Notesmith
 ## Notes: Personal notes with next-login reminders.
 ## Author: bandersong

@@ -28,8 +28,17 @@ Jot down anything you want to remember — bag cleanup, a guildie's name, "buy m
 
 ## Compatibility
 
-- **Burning Crusade Classic Anniversary** — Interface 20505 (tested)
-- **Retail** (The War Within) — Interface 120005 (included but untested)
+Notesmith ships a TOC for every active WoW flavor — the right one auto-loads based on which client you launch.
+
+| Flavor | Interface |
+|---|---|
+| Retail / Mainline (The War Within) | 120005 |
+| Mists of Pandaria Classic | 50503 |
+| Wrath Classic / Titan Reforged | 38001 |
+| Burning Crusade Classic Anniversary | 20505 |
+| Classic Era (Vanilla) | 11508 |
+
+**Tested on:** BC Anniversary. Other flavors share the same Lua API surface that Notesmith uses, so they should work — please open an issue if anything breaks.
 
 ## Install
 
