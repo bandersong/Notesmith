@@ -299,7 +299,7 @@ local function BuildMainFrame()
 
     local hintLabel = mainFrame:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
     hintLabel:SetPoint("BOTTOMLEFT", 20, 28)
-    hintLabel:SetText("/notes remind <text>  -  quick reminder")
+    hintLabel:SetText("/notesmith remind <text>  -  quick reminder")
 end
 
 StaticPopupDialogs["NOTESMITH_CONFIRM_DELETE"] = {

@@ -37,12 +37,12 @@ FEATURES
 - Quick slash-command capture
 
 SLASH COMMANDS
-/notes - toggle the main window
-/notes new [title] - create and open a new note
-/notes remind <text> - one-liner reminder for next login
-/notes list - print notes to chat
-/notes clear - clear all pending reminders
-/notes auto - toggle auto-open on login
+/notesmith - toggle the main window
+/notesmith new [title] - create and open a new note
+/notesmith remind <text> - one-liner reminder for next login
+/notesmith list - print notes to chat
+/notesmith clear - clear all pending reminders
+/notesmith auto - toggle auto-open on login
 
 COMPATIBILITY
 - Retail (The War Within)

@@ -144,18 +144,16 @@ end
 
 local function printHelp()
     Notesmith:Print("commands:")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes|r - toggle the window")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes new|r [title] - create and open a note")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes remind|r <text> - set a reminder for next login")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes list|r - list all notes in chat")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes clear|r - clear all pending reminders")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes auto|r - toggle auto-open on login")
-    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notes help|r - this message")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith|r - toggle the window")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith new|r [title] - create and open a note")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith remind|r <text> - set a reminder for next login")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith list|r - list all notes in chat")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith clear|r - clear all pending reminders")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith auto|r - toggle auto-open on login")
+    DEFAULT_CHAT_FRAME:AddMessage("  |cFFFFD700/notesmith help|r - this message")
 end
 
 SLASH_NOTESMITH1 = "/notesmith"
-SLASH_NOTESMITH2 = "/notes"
-SLASH_NOTESMITH3 = "/note"
 SlashCmdList["NOTESMITH"] = function(msg)
     msg = trim(msg)
     if msg == "" then
@@ -172,7 +170,7 @@ SlashCmdList["NOTESMITH"] = function(msg)
         if ns.OpenEditor then ns.OpenEditor(note.id) end
     elseif cmd == "remind" or cmd == "reminder" then
         if rest == "" then
-            Notesmith:Print("usage: /notes remind <text>")
+            Notesmith:Print("usage: /notesmith remind <text>")
         else
             local note = Notesmith:CreateNote(rest, "", true)
             Notesmith:Print("reminder set for next login: " .. note.title)

@@ -18,15 +18,13 @@ Jot down anything you want to remember — bag cleanup, a guildie's name, "buy m
 
 | Command | What it does |
 |---|---|
-| `/notes` | Toggle the main window |
-| `/notes new [title]` | Create and open a new note |
-| `/notes remind <text>` | One-liner reminder for next login |
-| `/notes list` | List all notes in chat |
-| `/notes clear` | Clear all pending reminders (keeps notes) |
-| `/notes auto` | Toggle auto-open on login |
-| `/notes help` | Show command list |
-
-Aliases: `/notesmith`, `/note`.
+| `/notesmith` | Toggle the main window |
+| `/notesmith new [title]` | Create and open a new note |
+| `/notesmith remind <text>` | One-liner reminder for next login |
+| `/notesmith list` | List all notes in chat |
+| `/notesmith clear` | Clear all pending reminders (keeps notes) |
+| `/notesmith auto` | Toggle auto-open on login |
+| `/notesmith help` | Show command list |
 
 ## Compatibility
 

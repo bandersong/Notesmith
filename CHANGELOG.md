@@ -1,5 +1,8 @@
 # Notesmith Changelog
 
+## v1.0.1
+- Slash command consolidated: only `/notesmith` (dropped `/notes` and `/note` aliases to avoid conflicts with other addons).
+
 ## v1.0.0
 - Initial release.
 - Account-wide notes (title + multiline body).
